@@ -13,7 +13,7 @@ body {
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: #F9FAF8;
     padding: 20px 150px 20px 150px;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 .navigation a {
-    color: white;
+    color: #F9FAF8;
     text-decoration: white;
 } 
 
@@ -33,3 +33,44 @@ body {
     font-size: 30px;
     font-weight: 500;
 }
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 80px 150px 80px 150px;
+    justify-content: space-between;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 550px;
+}
+
+.hero img {
+    width: 600px;
+    height: 300px;
+}
+
+.main-hero-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.secondary-hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-button {
+    width: 100px;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+

@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: roboto;
+}
+
 .header {
     display: flex;
     flex-basis: 100%;
@@ -11,3 +15,6 @@
     align-items: center;
 }
 
+.header-logo {
+    font-size: 30px;
+}

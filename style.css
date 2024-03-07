@@ -7,6 +7,14 @@ body {
     font-family: roboto;
 }
 
+a {
+   transition: font-size 0.3s ease-out;
+}
+
+a:hover {
+    font-size: 22px;
+}
+
 .header {
     display: flex;
     flex-basis: 100%;

@@ -78,6 +78,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px 0px;
 }
 
 .main-title {
@@ -88,18 +89,29 @@ body {
 
 .blocks-info {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    text-align: center;
+    padding: 40px 0px;
 }
 
 .info-block-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 150px;
 }
 
 .info-block {
     border: #3882f6 solid 5px;
     border-radius: 10%;
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.info-subtext {
+    padding-top: 10px;
 }
